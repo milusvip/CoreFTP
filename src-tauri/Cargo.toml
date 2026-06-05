@@ -2,7 +2,8 @@
 name = "core-ftp"
 version = "0.1.0"
 description = "A lightweight FTP client with remote extraction support"
-authors = ["CoreFTP"]
+authors = ["milusvip"]
+license = "MIT"
 edition = "2021"
 
 [lib]

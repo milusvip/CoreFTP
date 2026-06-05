@@ -302,7 +302,15 @@ Windows 下数据默认位于 `%LOCALAPPDATA%\CoreFTP\`：
 
 ## 许可证
 
-尚未在仓库中附带 LICENSE 文件。可在 [GitHub 仓库](https://github.com/milusvip/CoreFTP) 中自行添加（例如 MIT / Apache-2.0）并在本段注明。
+本项目采用 [MIT License](LICENSE) 开源。
+
+## 赞助支持
+
+如果 CoreFTP 对你有帮助，欢迎通过微信赞助支持持续开发：
+
+<p align="center">
+  <img src="docs/sponsor/wechat.png" alt="微信赞助收款码" width="240" />
+</p>
 
 ## 致谢
 
