@@ -35,6 +35,12 @@
 
 ![CoreFTP 夜间模式](docs/screenshots/main-window-dark.png)
 
+### 轻量占用
+
+基于 Tauri 2（Rust 原生 + 系统 WebView），相比 Electron 类客户端更省内存。Windows 任务管理器实测，空闲时**内存约 10 MB**，CPU 约 0.1%。
+
+![CoreFTP 任务管理器资源占用](docs/screenshots/memory-usage.png)
+
 ## 功能概览
 
 ### 连接与协议
