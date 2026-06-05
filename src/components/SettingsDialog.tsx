@@ -9,6 +9,7 @@ import {
   type ThemeId,
 } from "../theme";
 import ThemeSection from "./ThemeSection";
+import AboutSection from "./AboutSection";
 import { DialogBtn, DialogFooterBar } from "./ui/Dialog";
 import { Modal, ModalPanel, ModalHeader, ModalBody } from "./ui/Modal";
 
@@ -54,10 +55,10 @@ export default function SettingsDialog({ onClose }: SettingsDialogProps) {
     <Modal zIndex={56} onClose={onClose}>
       <ModalPanel
         size="lg"
-        className="!w-[720px] !h-[440px] flex flex-col overflow-hidden"
+        className="!w-[720px] !h-[500px] flex flex-col overflow-hidden"
       >
         <ModalHeader title={t("settings.title")} onClose={onClose} />
-        <ModalBody className="flex-1 overflow-hidden !py-2 space-y-2">
+        <ModalBody className="flex-1 overflow-y-auto !py-2 space-y-2 min-h-0">
           <ThemeSection
             appearance={appearance}
             theme={themeId}
@@ -118,6 +119,7 @@ export default function SettingsDialog({ onClose }: SettingsDialogProps) {
               {t("settings.persistQueue")}
             </label>
           </div>
+          <AboutSection />
         </ModalBody>
         <DialogFooterBar className="!py-2.5">
           <DialogBtn variant="secondary" onClick={onClose}>{t("dialog.cancel")}</DialogBtn>

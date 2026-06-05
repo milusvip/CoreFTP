@@ -40,3 +40,12 @@ pub fn save_persisted_transfers(tasks: Vec<PersistedTransferTask>) -> Result<(),
 pub fn clear_persisted_transfers() -> Result<(), String> {
     transfers::clear_transfers()
 }
+
+#[tauri::command]
+pub fn open_external_url(url: String) -> Result<(), String> {
+    let trimmed = url.trim();
+    if !(trimmed.starts_with("https://") || trimmed.starts_with("http://")) {
+        return Err("仅支持 http/https 链接".into());
+    }
+    open::that(trimmed).map_err(|e| format!("打开链接失败: {}", e))
+}

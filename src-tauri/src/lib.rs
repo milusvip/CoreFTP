@@ -75,6 +75,7 @@ pub fn run() {
             settings::load_persisted_transfers,
             settings::save_persisted_transfers,
             settings::clear_persisted_transfers,
+            settings::open_external_url,
             bookmarks::list_bookmarks,
             bookmarks::add_bookmark,
             bookmarks::remove_bookmark,

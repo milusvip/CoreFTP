@@ -120,6 +120,10 @@
   "settings.theme.grape": "Grape",
   "settings.theme.cyber": "Cyber",
   "settings.theme.azure": "Azure",
+  "settings.about": "About",
+  "settings.aboutVersion": "Version",
+  "settings.aboutDesc": "Open source on GitHub — view source, report issues, or contribute.",
+  "settings.aboutLicense": "License: MIT License (see LICENSE in the install directory)",
 
   "theme.switchToLight": "Switch to light mode",
   "theme.switchToDark": "Switch to dark mode",

@@ -132,6 +132,10 @@
   "settings.theme.grape": "葡萄",
   "settings.theme.cyber": "赛博",
   "settings.theme.azure": "天蓝",
+  "settings.about": "关于",
+  "settings.aboutVersion": "版本",
+  "settings.aboutDesc": "本项目在 GitHub 开源，欢迎查看源码、反馈问题或参与贡献。",
+  "settings.aboutLicense": "开源协议：MIT License（安装目录含 LICENSE 文件）",
 
   "theme.switchToLight": "切换到日间模式",
   "theme.switchToDark": "切换到深色模式",
