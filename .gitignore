@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+
+# Frontend build
+dist/
+
+# Rust
+src-tauri/target/
+
+# Logs & env
+*.log
+.env
+.env.*
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Tauri / local data (do not commit secrets)
+*.local.json
+
+# CoreFTP 用户本地数据（含主机、用户名、私钥路径等，勿提交）
+sites.json
+categories.json
+settings.json
+bookmarks.json
+transfers.json
+known_hosts
+**/CoreFTP/sites.json
+**/CoreFTP/categories.json
+**/CoreFTP/settings.json
+**/CoreFTP/bookmarks.json
+**/CoreFTP/transfers.json
+**/CoreFTP/known_hosts
+
+# 常见误拷目录（从 %LOCALAPPDATA%\CoreFTP 复制过来时）
+AppData/
+Local/CoreFTP/
